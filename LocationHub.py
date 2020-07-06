@@ -19,5 +19,5 @@ for x in tqdm(chunk):
     locations.append(location)
 
 location_df = pd.DataFrame({"Location":locations})
-location_df.to_csv("16000to17000.csv", index=False)
+location_df.to_csv("Locations.csv", index=False)
 
